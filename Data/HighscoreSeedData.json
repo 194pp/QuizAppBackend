@@ -1,12 +1,12 @@
 [
   {
     "Id": "8c0baf7a-9575-4f14-a474-74a7ab59db92",
-    "Email": "test@test.lt",
+    "Email": "john@doe.com",
     "Score": 5
   },
   {
     "Id": "e96e5c5f-6aac-4e83-a1ea-910a0bcc1394",
-    "Email": "another@test.lt",
+    "Email": "admin@root.dev",
     "Score": 9
   }
 ]
