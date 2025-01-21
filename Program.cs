@@ -20,7 +20,7 @@ public class Program
                 //policy.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
                 //      .AllowAnyHeader()
                 //      .AllowAnyMethod(); 
-                policy.WithOrigins("localhost", "https://quiz-app-frontend-chi.vercel.app/")
+                policy.AllowAnyOrigin()
                       .AllowAnyHeader()
                       .AllowAnyMethod();
             });
