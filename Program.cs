@@ -17,10 +17,10 @@ public class Program
         {
             options.AddDefaultPolicy(policy =>
             {
-                policy.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
-                      .AllowAnyHeader()
-                      .AllowAnyMethod();
-                policy.SetIsOriginAllowed(origin => new Uri(origin).Host == config.GetConnectionString("RemoteHost"))
+                //policy.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
+                //      .AllowAnyHeader()
+                //      .AllowAnyMethod(); 
+                policy.WithOrigins("localhost", "https://quiz-app-frontend-chi.vercel.app/")
                       .AllowAnyHeader()
                       .AllowAnyMethod();
             });
