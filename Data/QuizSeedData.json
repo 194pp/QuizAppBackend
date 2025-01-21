@@ -1,0 +1,68 @@
+[
+  {
+    "Id": "1588c2c8-41ec-41f2-87b0-3bed699fae3c",
+    "Question": "Which planet is known as the Red Planet?",
+    "AnswerOptions": [ "Earth", "Mars", "Venus", "Jupiter" ],
+    "CorrectAnswerOptions": [ 1 ],
+    "IsRadioOptions": true
+  },
+  {
+    "Id": "82254bc9-73d0-45be-8c3d-5db5e76d5667",
+    "Question": "Which of these is a prime number?",
+    "AnswerOptions": [ "4", "6", "7", "9" ],
+    "CorrectAnswerOptions": [ 2 ],
+    "IsRadioOptions": true
+  },
+  {
+    "Id": "a87d08a8-11a7-449a-8786-53373570a382",
+    "Question": "Who wrote 'Romeo and Juliet'?",
+    "AnswerOptions": [ "Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain" ],
+    "CorrectAnswerOptions": [ 1 ],
+    "IsRadioOptions": true
+  },
+  {
+    "Id": "3ab75b04-fa61-43d8-a853-92288c421196",
+    "Question": "What is the chemical symbol for water?",
+    "AnswerOptions": [ "CO2", "H2O", "O2", "NaCl" ],
+    "CorrectAnswerOptions": [ 1 ],
+    "IsRadioOptions": true
+  },
+  {
+    "Id": "f3a94a8e-5a67-4d2c-89e1-9277efc34d58",
+    "Question": "Which of the following are examples of renewable energy sources?",
+    "AnswerOptions": [ "Solar energy", "Coal", "Wind energy", "Natural gas", "Hydropower" ],
+    "CorrectAnswerOptions": [ 0, 2, 4 ],
+    "IsRadioOptions": false
+  },
+  {
+    "Id": "b2d93c5b-821f-4b2a-a2eb-25a1efc9a9a1",
+    "Question": "Which of the following programming languages are commonly used for web development?",
+    "AnswerOptions": [ "Python", "JavaScript", "C#", "HTML", "Swift" ],
+    "CorrectAnswerOptions": [ 0, 1, 2 ],
+    "IsRadioOptions": false
+  },
+  {
+    "Id": "a5634d3a-4f71-4c96-9c64-2e785d0d2e93",
+    "Question": "Which of the following are elements of the periodic table?",
+    "AnswerOptions": [ "Helium", "Water", "Oxygen", "Nitrogen", "Carbon" ],
+    "CorrectAnswerOptions": [ 0, 2, 3, 4 ],
+    "IsRadioOptions": false
+  },
+  {
+    "Id": "c1a7c1f4-813f-4bb2-a953-c1fd4c8e89b3",
+    "Question": "Which of the following are basic principles of object-oriented programming?",
+    "AnswerOptions": [ "Encapsulation", "Inheritance", "Polymorphism", "Static typing", "Abstraction" ],
+    "CorrectAnswerOptions": [ 0, 1, 2, 4 ],
+    "IsRadioOptions": false
+  },
+  {
+    "Id": "7b44be8e-3b76-49a6-8d6f-01d88d69ab1e",
+    "Question": "What is the name of the longest bone in the human body?",
+    "CorrectAnswerText": "femur"
+  },
+  {
+    "Id": "f0cc4dfe-b364-4ec4-b01f-b575d9db3b2c",
+    "Question": "Who first formulated the laws of motion?",
+    "CorrectAnswerText": "isaac newton"
+  }
+]
