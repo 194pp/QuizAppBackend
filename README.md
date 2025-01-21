@@ -59,7 +59,7 @@ Ensure you have the following installed:
    ```
 
 4. **Access the application**:
-   Open your browser and navigate to `http://localhost:5158` (default URL).
+   Open your browser and navigate to `http://localhost:5001` (default URL).
 
 ## Usage
 
