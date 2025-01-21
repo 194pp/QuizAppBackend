@@ -20,6 +20,9 @@ public class Program
                 policy.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
                       .AllowAnyHeader()
                       .AllowAnyMethod();
+                policy.SetIsOriginAllowed(origin => new Uri(origin).Host == config.GetConnectionString("RemoteHost"))
+                      .AllowAnyHeader()
+                      .AllowAnyMethod();
             });
         });
         services.Configure<RouteOptions>(options => options.LowercaseUrls = true);
